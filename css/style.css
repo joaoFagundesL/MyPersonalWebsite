@@ -55,6 +55,10 @@ header {
     padding: .4rem 0px;
 }
 
+.menu-nav ul a.ativo {
+    border-bottom: 2px solid var(--azul-claro);
+}
+
 .menu-nav a:hover {
     border-bottom: 2px solid var(--azul-claro);
 } 
@@ -173,8 +177,6 @@ img {
         padding: 4px;
         margin-bottom: 10px;
         text-align: center;
-        background-color: rgb(243, 243, 243);
-        border-bottom: 1.2px solid var(--azul-claro);
     }
     
     .menu-nav ul a {
@@ -225,5 +227,4 @@ img {
     .section-sobre>p {
         text-align: justify;
     }
-
 }
